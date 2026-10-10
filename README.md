@@ -1,29 +1,29 @@
 <!-- ===================== HEADER ===================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:{{PRIMARY_HEX}},100:{{SECONDARY_HEX}}&height=220&section=header&text=Mandira%20Sawkar&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Research%20Engineer%20%C2%B7%202x%20EMNLP%20First%20Author&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="Mandira Sawkar banner"/>
+  <img src="./assets/banner.svg" width="100%" alt="Mandira Sawkar — Research Engineer · LLM Evaluation · Responsible NLP"/>
 </p>
 
 <p align="center">
   <a href="https://mandira-sawkar.github.io/">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=900&color={{ACCENT_HEX}}&center=true&vCenter=true&width=640&lines=LLM+Evaluation+%26+LLM-as-a-Judge;Responsible+%26+Socially+Aligned+NLP;Production+ML+Pipelines+at+Scale;Turning+messy+text+into+measurable+evidence" alt="Typing tagline"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=900&color=2DD4BF&center=true&vCenter=true&width=640&lines=LLM+Evaluation+%26+LLM-as-a-Judge;Responsible+%26+Socially+Aligned+NLP;Production+ML+Pipelines+at+Scale;Turning+messy+text+into+measurable+evidence" alt="Typing tagline"/>
   </a>
 </p>
 
 <p align="center">
-  <a href="https://mandira-sawkar.github.io/"><img src="https://img.shields.io/badge/Portfolio-{{ACCENT_HEX}}?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"/></a>
-  <a href="https://mandira-sawkar.github.io/cv/"><img src="https://img.shields.io/badge/CV-{{SECONDARY_HEX}}?style=for-the-badge&logo=readthedocs&logoColor=white" alt="CV"/></a>
-  <a href="https://scholar.google.com/citations?hl=en&user=lbaywYoAAAAJ"><img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar"/></a>
-  <a href="https://www.linkedin.com/in/mandira-sawkar"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:mandirasawkar@gmail.com"><img src="https://img.shields.io/badge/Email-{{PRIMARY_HEX}}?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://mandira-sawkar.github.io/"><img src="https://img.shields.io/badge/Portfolio-12304a?style=for-the-badge&logo=githubpages&logoColor=2dd4bf" alt="Portfolio"/></a>
+  <a href="https://mandira-sawkar.github.io/cv/"><img src="https://img.shields.io/badge/CV-12304a?style=for-the-badge&logo=readthedocs&logoColor=2dd4bf" alt="CV"/></a>
+  <a href="https://scholar.google.com/citations?hl=en&user=lbaywYoAAAAJ"><img src="https://img.shields.io/badge/Google%20Scholar-12304a?style=for-the-badge&logo=googlescholar&logoColor=2dd4bf" alt="Google Scholar"/></a>
+  <a href="https://www.linkedin.com/in/mandira-sawkar"><img src="https://img.shields.io/badge/LinkedIn-12304a?style=for-the-badge&logo=linkedin&logoColor=2dd4bf" alt="LinkedIn"/></a>
+  <a href="mailto:mandirasawkar@gmail.com"><img src="https://img.shields.io/badge/Email-12304a?style=for-the-badge&logo=gmail&logoColor=2dd4bf" alt="Email"/></a>
 </p>
 
-<p align="center">📍 Sunnyvale, CA &nbsp;·&nbsp; 🎓 M.S. Artificial Intelligence, RIT &nbsp;·&nbsp; 🔎 Open to ML / NLP / Research Engineer roles</p>
+<p align="center">📍 Sunnyvale, CA &nbsp;·&nbsp; 🎓 M.S. Artificial Intelligence, RIT </p>
 
 ---
 
 ## 👋 About Me
 
-I'm a research engineer working where **responsible NLP** meets **production engineering**.
+I'm a research engineer working where responsible NLP meets production engineering.
 I build LLM-as-a-judge pipelines, validate them against human experts, and ship ML systems that hold up on real, large-scale data.
 
 Before research, I spent 4+ years building ML and automation systems in industry. That's why I care about evaluation that is rigorous, reproducible, and actually usable.
@@ -34,20 +34,17 @@ Before research, I spent 4+ years building ML and automation systems in industry
 
 ## ⚡ Selected Impact
 
+<p align="center">
+  <img src="https://img.shields.io/badge/6.7M-parliamentary%20speeches%20analyzed-12304a?style=for-the-badge&labelColor=2dd4bf" alt="6.7M parliamentary speeches analyzed"/>
+  <img src="https://img.shields.io/badge/%CE%BA%20%3D%200.711-agreement%20with%20human%20consensus-12304a?style=for-the-badge&labelColor=2dd4bf" alt="kappa 0.711 agreement with human consensus"/>
+  <img src="https://img.shields.io/badge/3%20hrs%20%E2%86%92%2020%20min-per--batch%20runtime-12304a?style=for-the-badge&labelColor=2dd4bf" alt="3 hours to 20 minutes per-batch runtime"/>
+</p>
+
 <table>
   <tr>
-    <td align="center" width="33%">
-      <h3>6.7M</h3>
-      parliamentary speeches analyzed with an LLM-as-a-judge pipeline
-    </td>
-    <td align="center" width="33%">
-      <h3>κ = 0.711</h3>
-      LLM agreement with human consensus<br/><sub>(human–human κ = 0.644)</sub>
-    </td>
-    <td align="center" width="33%">
-      <h3>3 hrs → 20 min</h3>
-      per-batch analysis runtime in a production ML pipeline
-    </td>
+    <td align="center" width="33%">LLM-as-a-judge pipeline over two centuries of UK Hansard debate</td>
+    <td align="center" width="33%">Validated against expert annotators<br/><sub>(human–human κ = 0.644)</sub></td>
+    <td align="center" width="33%">Automated data-insights pipeline for production ML workloads</td>
   </tr>
 </table>
 
@@ -69,21 +66,21 @@ Before research, I spent 4+ years building ML and automation systems in industry
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="{{hansard_thumbnail}}" width="100%" alt="Hansard project preview"/>
+      <img src="./assets/hansard_thumbnail.png" width="100%" alt="Hansard project preview"/>
       <h3>🏛️ Hansard Sexism Analysis</h3>
       <b>Problem:</b> Measure sexist rhetoric across 200 years of UK parliamentary debate.<br/>
       <b>Built:</b> Psychology-grounded taxonomy, 300-speech human validation set, cross-model LLM judging.<br/>
       <b>Result:</b> Sexism in 54% of anti-suffrage vs. 21% of pro-suffrage speeches.<br/><br/>
-      <a href="https://github.com/omarkhursheed/hansard-nlp-explorer"><img src="https://img.shields.io/badge/Code-181717?style=flat-square&logo=github" alt="Code"/></a>
-      <a href="{{EMNLP_2026_PAPER_URL}}"><img src="https://img.shields.io/badge/Paper-{{ACCENT_HEX}}?style=flat-square&logo=arxiv&logoColor=white" alt="Paper"/></a>
+      <a href="https://github.com/mandira-sawkar/Two-Centuries-of-Sexism"><img src="https://img.shields.io/badge/Code-181717?style=flat-square&logo=github" alt="Code"/></a>
+      <a href="{{https://arxiv.org/abs/2608.30485}}"><img src="https://img.shields.io/badge/Paper-{{ACCENT_HEX}}?style=flat-square&logo=arxiv&logoColor=white" alt="Paper"/></a>
     </td>
     <td width="50%" valign="top">
-      <img src="{{lewidi_thumbnail.png}}" width="100%" alt="LeWiDi project preview"/>
+      <img src="./assets/lewidi_thumbnail.png" width="100%" alt="LeWiDi project preview"/>
       <h3>🧩 Disagreement-Aware Modeling</h3>
       <b>Problem:</b> Single labels erase minority perspectives in subjective tasks.<br/>
       <b>Built:</b> Extended DisCo with annotator-metadata embeddings and task-aligned losses.<br/>
       <b>Result:</b> ~40% lower soft-label distance on CSC and Paraphrase.<br/><br/>
-      <a href="https://github.com/Homan-Lab/lewidi3_public"><img src="https://img.shields.io/badge/Code-181717?style=flat-square&logo=github" alt="Code"/></a>
+      <a href="https://github.com/mandira-sawkar/LeWiDi3_NLPeerespectives_2025"><img src="https://img.shields.io/badge/Code-181717?style=flat-square&logo=github" alt="Code"/></a>
       <a href="https://aclanthology.org/2025.nlperspectives-1.17/"><img src="https://img.shields.io/badge/Paper-{{ACCENT_HEX}}?style=flat-square&logo=bookstack&logoColor=white" alt="Paper"/></a>
     </td>
   </tr>
@@ -107,10 +104,12 @@ Before research, I spent 4+ years building ML and automation systems in industry
 
 | Project | What it does | Highlight |
 |---|---|---|
-| [Two Centuries of Sexism](https://github.com/mandira-sawkar/Two-Centuries-of-Sexism) | LLM-as-a-Judge framework featuring 1.2 million historic parliamentary debates| LLM Evals |
-| [Learning With Disagreements](https://github.com/mandira-sawkar/LeWiDi3_NLPerspectives_2025) | Modelling annotators and non-binary labels | Multilayer Perceptron, NLI |
-| [LLM-as-a-SupremeCourt-Judge](https://github.com/mandira-sawkar/LLM-as-a-SupremeCourt-Judge) | LLM-as-a-Judge framework evaluating 200 Supreme Court cases | LLM Classification |
-| [Detecting Deception](https://github.com/mandira-sawkar/ Intelligent-Systems-for-Fighting-Misinformation) | Fake news detection with DistilRoBERTa with logic-gated ML overrides | RoBERTa + Logic gates |
+| [Beyond Hallucinations](https://github.com/mandira-sawkar/Beyond-Hallucinations-Multi-Agent-Fact-Checking) | Theoretical framework where multiple LLM agents reach verifiable answers through debate and consensus | Agentic AI |
+| [AI Alignment in Criminal Justice](https://github.com/mandira-sawkar/AI-Alignment-in-Criminal-Justice) | Optimization and game-theory model for fair jury selection and deliberation | 🏆 1st of ~60, RIT Graduate Showcase |
+| [Parking Ticket Classifier](https://github.com/mandira-sawkar/Interpretable-Parking-Ticket-Location-Classifier) | Spark ML Random Forest predicting NYC police precinct | 98% accuracy |
+| [Shipping Status Classifier](https://github.com/mandira-sawkar/Product-Shipping-Status-Classifier) | Predicts supply-chain delays with PCA / LDA | 97% accuracy |
+| [Cancer Detection Microservice](https://github.com/mandira-sawkar/Cancer-Detection-as-a-Microservice) | Voting classifier served via Flask in Docker | End-to-end deployment |
+| [getPaid](https://github.com/mandira-sawkar/getPaid) | PySpark model predicting employee compensation | R² = 0.98 |
 
 </details>
 
@@ -119,6 +118,12 @@ Before research, I spent 4+ years building ML and automation systems in industry
 ## 💼 Experience
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {
+  'primaryColor':'#12304a', 'primaryTextColor':'#f1f5f9', 'primaryBorderColor':'#2dd4bf',
+  'lineColor':'#60a5fa', 'textColor':'#94a3b8',
+  'cScale0':'#12304a', 'cScale1':'#0f3d4a', 'cScale2':'#134e4a', 'cScale3':'#0b1324',
+  'cScaleLabel0':'#f1f5f9', 'cScaleLabel1':'#f1f5f9', 'cScaleLabel2':'#f1f5f9', 'cScaleLabel3':'#f1f5f9'
+}}}%%
 timeline
     title Career Path
     2020 - 2023 : Software Engineer · WSP Global
@@ -126,10 +131,6 @@ timeline
     2024 - 2026 : M.S. Artificial Intelligence · RIT
     2025 - 2026 : 2x EMNLP co-first-author papers
 ```
-
-<details>
-<summary><b>🧠 Machine Learning Engineer — Kloud9</b> &nbsp;·&nbsp; Apr 2023 – Jul 2024</summary>
-<br/>
 
 - Built a ghost-inventory prediction pipeline across 50+ features and multimillion-row datasets: **92% accuracy**, **10% fewer stock discrepancies**.
 - Cut per-batch analysis runtime from **3 hours to 20 minutes**.
@@ -165,29 +166,51 @@ timeline
 
 **Languages**
 <p>
-  <img src="https://skillicons.dev/icons?i=python,cpp,c,java,r,powershell&theme={{ICON_THEME}}" alt="Languages"/>
+  <img src="https://img.shields.io/badge/Python-12304a?style=flat-square&logo=python&logoColor=2dd4bf" alt="Python"/>
+  <img src="https://img.shields.io/badge/C%2B%2B-12304a?style=flat-square&logo=cplusplus&logoColor=2dd4bf" alt="C++"/>
+  <img src="https://img.shields.io/badge/C-12304a?style=flat-square&logo=c&logoColor=2dd4bf" alt="C"/>
+  <img src="https://img.shields.io/badge/SQL-12304a?style=flat-square&logo=postgresql&logoColor=2dd4bf" alt="SQL"/>
+  <img src="https://img.shields.io/badge/R-12304a?style=flat-square&logo=r&logoColor=2dd4bf" alt="R"/>
+  <img src="https://img.shields.io/badge/Java-12304a?style=flat-square&logo=openjdk&logoColor=2dd4bf" alt="Java"/>
+  <img src="https://img.shields.io/badge/PowerShell-12304a?style=flat-square&logo=powershell&logoColor=2dd4bf" alt="PowerShell"/>
 </p>
 
 **ML · NLP · LLMs**
 <p>
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme={{ICON_THEME}}" alt="ML frameworks"/>
-  <br/>
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face"/>
-  <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white" alt="MLflow"/>
-  <img src="https://img.shields.io/badge/Weights%20%26%20Biases-FFBE00?style=flat-square&logo=weightsandbiases&logoColor=black" alt="W&B"/>
-  <img src="https://img.shields.io/badge/LLM--as--a--Judge-{{ACCENT_HEX}}?style=flat-square" alt="LLM-as-a-Judge"/>
-  <img src="https://img.shields.io/badge/RAG-{{ACCENT_HEX}}?style=flat-square" alt="RAG"/>
+  <img src="https://img.shields.io/badge/PyTorch-12304a?style=flat-square&logo=pytorch&logoColor=2dd4bf" alt="PyTorch"/>
+  <img src="https://img.shields.io/badge/TensorFlow-12304a?style=flat-square&logo=tensorflow&logoColor=2dd4bf" alt="TensorFlow"/>
+  <img src="https://img.shields.io/badge/scikit--learn-12304a?style=flat-square&logo=scikitlearn&logoColor=2dd4bf" alt="scikit-learn"/>
+  <img src="https://img.shields.io/badge/Hugging%20Face-12304a?style=flat-square&logo=huggingface&logoColor=2dd4bf" alt="Hugging Face"/>
+  <img src="https://img.shields.io/badge/MLflow-12304a?style=flat-square&logo=mlflow&logoColor=2dd4bf" alt="MLflow"/>
+  <img src="https://img.shields.io/badge/Weights%20%26%20Biases-12304a?style=flat-square&logo=weightsandbiases&logoColor=2dd4bf" alt="Weights & Biases"/>
+</p>
+<p>
+  <img src="https://img.shields.io/badge/LLM--as--a--Judge-0b1324?style=flat-square" alt="LLM-as-a-Judge"/>
+  <img src="https://img.shields.io/badge/Prompt%20Engineering-0b1324?style=flat-square" alt="Prompt Engineering"/>
+  <img src="https://img.shields.io/badge/Fine--tuning-0b1324?style=flat-square" alt="Fine-tuning"/>
+  <img src="https://img.shields.io/badge/RAG-0b1324?style=flat-square" alt="RAG"/>
+  <img src="https://img.shields.io/badge/NLI-0b1324?style=flat-square" alt="NLI"/>
+  <img src="https://img.shields.io/badge/Bias%20%26%20Fairness%20Analysis-0b1324?style=flat-square" alt="Bias & Fairness Analysis"/>
 </p>
 
-**Data · Cloud · Deployment**
+**Data Engineering**
 <p>
-  <img src="https://skillicons.dev/icons?i=aws,gcp,azure,docker,flask,git&theme={{ICON_THEME}}" alt="Cloud and deployment"/>
-  <br/>
-  <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white" alt="Spark"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/>
-  <img src="https://img.shields.io/badge/Dask-FDA061?style=flat-square&logo=dask&logoColor=black" alt="Dask"/>
-  <img src="https://img.shields.io/badge/SQL-{{SECONDARY_HEX}}?style=flat-square&logo=postgresql&logoColor=white" alt="SQL"/>
+  <img src="https://img.shields.io/badge/Apache%20Spark-12304a?style=flat-square&logo=apachespark&logoColor=2dd4bf" alt="Apache Spark"/>
+  <img src="https://img.shields.io/badge/PySpark-12304a?style=flat-square&logo=apachespark&logoColor=2dd4bf" alt="PySpark"/>
+  <img src="https://img.shields.io/badge/Pandas-12304a?style=flat-square&logo=pandas&logoColor=2dd4bf" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/NumPy-12304a?style=flat-square&logo=numpy&logoColor=2dd4bf" alt="NumPy"/>
+  <img src="https://img.shields.io/badge/Dask-12304a?style=flat-square&logo=dask&logoColor=2dd4bf" alt="Dask"/>
+  <img src="https://img.shields.io/badge/Matplotlib-12304a?style=flat-square&logo=plotly&logoColor=2dd4bf" alt="Matplotlib"/>
+</p>
+
+**Cloud · Deployment**
+<p>
+  <img src="https://img.shields.io/badge/AWS-12304a?style=flat-square&logo=amazonwebservices&logoColor=2dd4bf" alt="AWS"/>
+  <img src="https://img.shields.io/badge/Google%20Cloud-12304a?style=flat-square&logo=googlecloud&logoColor=2dd4bf" alt="Google Cloud"/>
+  <img src="https://img.shields.io/badge/Azure-12304a?style=flat-square&logo=microsoftazure&logoColor=2dd4bf" alt="Azure"/>
+  <img src="https://img.shields.io/badge/Docker-12304a?style=flat-square&logo=docker&logoColor=2dd4bf" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Flask-12304a?style=flat-square&logo=flask&logoColor=2dd4bf" alt="Flask"/>
+  <img src="https://img.shields.io/badge/Git-12304a?style=flat-square&logo=git&logoColor=2dd4bf" alt="Git"/>
 </p>
 
 ---
@@ -204,13 +227,13 @@ timeline
 I'm happy to talk about LLM evaluation, AI safety, responsible NLP, or research engineering roles.
 
 <p align="center">
-  <a href="mailto:mandirasawkar@gmail.com">📧 Email</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/mandira-sawkar">💼 LinkedIn</a> &nbsp;·&nbsp;
-  <a href="https://mandira-sawkar.github.io/">🌐 Portfolio</a> &nbsp;·&nbsp;
-  <a href="https://scholar.google.com/citations?hl=en&user=lbaywYoAAAAJ">📚 Scholar</a>
+  <a href="mailto:mandirasawkar@gmail.com"><img src="https://img.shields.io/badge/Email-0b1324?style=flat-square&logo=gmail&logoColor=2dd4bf" alt="Email"/></a>
+  <a href="https://www.linkedin.com/in/mandira-sawkar"><img src="https://img.shields.io/badge/LinkedIn-0b1324?style=flat-square&logo=linkedin&logoColor=2dd4bf" alt="LinkedIn"/></a>
+  <a href="https://mandira-sawkar.github.io/"><img src="https://img.shields.io/badge/Portfolio-0b1324?style=flat-square&logo=githubpages&logoColor=2dd4bf" alt="Portfolio"/></a>
+  <a href="https://scholar.google.com/citations?hl=en&user=lbaywYoAAAAJ"><img src="https://img.shields.io/badge/Scholar-0b1324?style=flat-square&logo=googlescholar&logoColor=2dd4bf" alt="Scholar"/></a>
 </p>
 
 <!-- ===================== FOOTER ===================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:{{SECONDARY_HEX}},100:{{PRIMARY_HEX}}&height=120&section=footer" width="100%" alt="Footer wave"/>
+  <img src="./assets/footer.svg" width="100%" alt="Thanks for stopping by"/>
 </p>
