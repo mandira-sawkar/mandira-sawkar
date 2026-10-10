@@ -26,11 +26,11 @@ I build LLM-as-a-judge pipelines, validate them against human experts, and ship 
 
 Before research, I spent 4+ years building ML and automation systems in industry. That's why I care about evaluation that is rigorous, reproducible, and actually usable.
 
-> **Currently interested in:** LLM evals · AI safety · socially aligned NLP · large-scale data systems
+**Currently interested in:** LLM evals · AI safety · socially aligned NLP · large-scale data systems
 
 ---
 
-## Selected Impact
+<!-- ## Selected Impact
 
 <table>
   <tr>
@@ -49,7 +49,7 @@ Before research, I spent 4+ years building ML and automation systems in industry
   </tr>
 </table>
 
----
+--- -->
 
 ## Publications
 
@@ -119,13 +119,17 @@ Before research, I spent 4+ years building ML and automation systems in industry
 ## Experience
 
 <p align="center">
-  <img src="./assets/timeline.svg" width="100%" alt="Career timeline: WSP Global (2020) → Kloud9 (2023) → RIT M.S. AI (2024) → EMNLP 2025 → EMNLP 2026"/>
+  <img src="./assets/timeline.svg" width="100%" alt="Milestones: WSP Global (2020) → Kloud9 (2023) → RIT M.S. AI (2024) → EMNLP 2025 → EMNLP 2026"/>
 </p>
 
-- Built a ghost-inventory prediction pipeline across 50+ features and multimillion-row datasets: **92% accuracy**, **10% fewer stock discrepancies**.
-- Cut per-batch analysis runtime from **3 hours to 20 minutes**.
-- Reduced production deployment time by **~80%** with data-engineering and business teams.
-- Mentored **5+ interns** in feature engineering, PySpark, and ML evaluation, leading to **3 full-time hires**.
+<details>
+<summary><b>ML Engineer — Kloud9.nyc</b> &nbsp;·&nbsp; Apr 2023 – Jul 2024</summary>
+<br/>
+
+- Built a ghost-inventory prediction pipeline across 50+ features and multimillion-row datasets: 92% accuracy, 10% fewer stock discrepancies.
+- Cut per-batch analysis runtime from 3 hours to 20 minutes.
+- Reduced production deployment time by ~80% with data-engineering and business teams.
+- Mentored 5+ interns in feature engineering, PySpark, and ML evaluation, leading to 3 full-time hires.
 
 </details>
 
@@ -133,9 +137,9 @@ Before research, I spent 4+ years building ML and automation systems in industry
 <summary><b>Software Engineer — WSP Global</b> &nbsp;·&nbsp; Oct 2020 – Apr 2023</summary>
 <br/>
 
-- Built a CLI tool automating onboarding for **60,000+ employees annually**, saving **2.5 human-months per year**.
-- Cut operations overhead by **71%** with an automated project-archival pipeline.
-- Validated **80,000+ employee records monthly** with a Python and Pandas data-quality system.
+- Built a CLI tool automating onboarding for 60,000+ employees annually, saving 2.5 human-months per year.
+- Cut operations overhead by 71% with an automated project-archival pipeline.
+- Validated 80,000+ employee records monthly with a Python and Pandas data-quality system.
 
 </details>
 
