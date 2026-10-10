@@ -118,6 +118,8 @@ Before research, I spent 4+ years building ML and automation systems in industry
 
 ## Experience
 
+**Milestones**
+
 <p align="center">
   <img src="./assets/timeline.svg" width="100%" alt="Milestones: WSP Global (2020) → Kloud9 (2023) → RIT M.S. AI (2024) → EMNLP 2025 → EMNLP 2026"/>
 </p>
