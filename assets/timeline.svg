@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 210" width="1200" height="210" role="img" aria-label="Career timeline: 2020 Software Engineer at WSP Global; 2023 ML Engineer at Kloud9; 2024 M.S. Artificial Intelligence at RIT; 2025 EMNLP workshop paper; 2026 EMNLP main conference paper.">
+  <!-- ===== EDIT COLORS HERE (keep in sync with banner.svg) ===== -->
+  <style>
+    :root { --bg1:#0b1324; --bg2:#12304a; --accent:#2dd4bf; --accent2:#60a5fa; --text:#f1f5f9; --muted:#94a3b8; }
+    .bg1{stop-color:var(--bg1)} .bg2{stop-color:var(--bg2)}
+    .track{stroke:var(--muted);stroke-opacity:.15;stroke-width:3}
+    .line{stroke:var(--accent2);stroke-width:3;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:1;animation:draw 3.0s linear .3s forwards}
+    .ms{opacity:0;animation:fade .6s ease-out forwards}
+    .node{transform:scale(.2);animation:pop .6s cubic-bezier(.34,1.56,.64,1) forwards}
+    .core{fill:var(--accent)}
+    .halo{fill:var(--accent);opacity:.18}
+    .last .halo{animation:breathe 2.6s ease-in-out 4s infinite}
+    .pulse{fill:#fff;filter:drop-shadow(0 0 5px var(--accent))}
+    .yr{font:600 16px 'Fira Code',Consolas,monospace;fill:var(--accent)}
+    .t{font:700 19px 'Segoe UI',Helvetica,Arial,sans-serif;fill:var(--text)}
+    .s{font:400 14px 'Segoe UI',Helvetica,Arial,sans-serif;fill:var(--muted)}
+    @keyframes draw{to{stroke-dashoffset:0}}
+    @keyframes pop{to{transform:scale(1)}}
+    @keyframes fade{to{opacity:1}}
+    @keyframes breathe{0%,100%{opacity:.15}50%{opacity:.5}}
+    @media (prefers-reduced-motion: reduce) {
+      .line{animation:none;stroke-dashoffset:0} .ms{animation:none;opacity:1} .node{animation:none;transform:none} .last .halo{animation:none} .pulse{display:none}
+    }
+  </style>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" class="bg1"/><stop offset="1" class="bg2"/></linearGradient></defs>
+  <rect width="1200" height="210" rx="18" fill="url(#g)"/>
+  <line x1="130" y1="95" x2="1070" y2="95" class="track"/>
+  <line x1="130" y1="95" x2="1070" y2="95" pathLength="1" class="line"/>
+  <g class="ms" style="animation-delay:0.30s">
+    <text x="130" y="65" text-anchor="middle" class="yr">2020</text>
+    <g class="node" style="transform-origin:130px 95px;animation-delay:0.30s"><circle cx="130" cy="95" r="15" class="halo"/><circle cx="130" cy="95" r="7.5" class="core"/></g>
+    <text x="130" y="140" text-anchor="middle" class="t">WSP Global</text>
+    <text x="130" y="163" text-anchor="middle" class="s">Software Engineer</text></g><g class="ms" style="animation-delay:1.05s">
+    <text x="365" y="65" text-anchor="middle" class="yr">2023</text>
+    <g class="node" style="transform-origin:365px 95px;animation-delay:1.05s"><circle cx="365" cy="95" r="15" class="halo"/><circle cx="365" cy="95" r="7.5" class="core"/></g>
+    <text x="365" y="140" text-anchor="middle" class="t">Kloud9</text>
+    <text x="365" y="163" text-anchor="middle" class="s">ML Engineer</text></g><g class="ms" style="animation-delay:1.80s">
+    <text x="600" y="65" text-anchor="middle" class="yr">2024</text>
+    <g class="node" style="transform-origin:600px 95px;animation-delay:1.80s"><circle cx="600" cy="95" r="15" class="halo"/><circle cx="600" cy="95" r="7.5" class="core"/></g>
+    <text x="600" y="140" text-anchor="middle" class="t">RIT</text>
+    <text x="600" y="163" text-anchor="middle" class="s">M.S. Artificial Intelligence</text></g><g class="ms" style="animation-delay:2.55s">
+    <text x="835" y="65" text-anchor="middle" class="yr">2025</text>
+    <g class="node" style="transform-origin:835px 95px;animation-delay:2.55s"><circle cx="835" cy="95" r="15" class="halo"/><circle cx="835" cy="95" r="7.5" class="core"/></g>
+    <text x="835" y="140" text-anchor="middle" class="t">EMNLP 2025</text>
+    <text x="835" y="163" text-anchor="middle" class="s">Workshop paper · co-first author</text></g><g class="ms" style="animation-delay:3.30s">
+    <text x="1070" y="65" text-anchor="middle" class="yr">2026</text>
+    <g class="node last" style="transform-origin:1070px 95px;animation-delay:3.30s"><circle cx="1070" cy="95" r="15" class="halo"/><circle cx="1070" cy="95" r="7.5" class="core"/></g>
+    <text x="1070" y="140" text-anchor="middle" class="t">EMNLP 2026</text>
+    <text x="1070" y="163" text-anchor="middle" class="s">Main conference · co-first author</text></g>
+  <circle r="4" class="pulse" opacity="0"><animateMotion path="M130,95 L1070,95" dur="3.5s" begin="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="3.5s" begin="4s" repeatCount="indefinite"/></circle>
+</svg>

@@ -1,7 +1,5 @@
 <!-- ===================== HEADER ===================== -->
-<p align="center">
-  <img src="./assets/banner.svg" width="100%" alt="Mandira Sawkar — Research Engineer · LLM Evaluation · Responsible NLP"/>
-</p>
+<img src="./assets/banner.svg" width="100%" alt="Mandira Sawkar — Research Engineer · 2x EMNLP First Author · Production ML at scale · LLM Evaluation · Responsible NLP"/>
 
 <p align="center">
   <a href="https://mandira-sawkar.github.io/">
@@ -17,11 +15,11 @@
   <a href="mailto:mandirasawkar@gmail.com"><img src="https://img.shields.io/badge/Email-12304a?style=for-the-badge&logo=gmail&logoColor=2dd4bf" alt="Email"/></a>
 </p>
 
-<p align="center">📍 Sunnyvale, CA &nbsp;·&nbsp; 🎓 M.S. Artificial Intelligence, RIT </p>
+<p align="center">Sunnyvale, CA &nbsp;·&nbsp; M.S. Artificial Intelligence, RIT</p>
 
 ---
 
-## 👋 About Me
+## About Me
 
 I'm a research engineer working where responsible NLP meets production engineering.
 I build LLM-as-a-judge pipelines, validate them against human experts, and ship ML systems that hold up on real, large-scale data.
@@ -32,42 +30,45 @@ Before research, I spent 4+ years building ML and automation systems in industry
 
 ---
 
-## ⚡ Selected Impact
-
-<p align="center">
-  <img src="https://img.shields.io/badge/6.7M-parliamentary%20speeches%20analyzed-12304a?style=for-the-badge&labelColor=2dd4bf" alt="6.7M parliamentary speeches analyzed"/>
-  <img src="https://img.shields.io/badge/%CE%BA%20%3D%200.711-agreement%20with%20human%20consensus-12304a?style=for-the-badge&labelColor=2dd4bf" alt="kappa 0.711 agreement with human consensus"/>
-  <img src="https://img.shields.io/badge/3%20hrs%20%E2%86%92%2020%20min-per--batch%20runtime-12304a?style=for-the-badge&labelColor=2dd4bf" alt="3 hours to 20 minutes per-batch runtime"/>
-</p>
+## Selected Impact
 
 <table>
   <tr>
-    <td align="center" width="33%">LLM-as-a-judge pipeline over two centuries of UK Hansard debate</td>
-    <td align="center" width="33%">Validated against expert annotators<br/><sub>(human–human κ = 0.644)</sub></td>
-    <td align="center" width="33%">Automated data-insights pipeline for production ML workloads</td>
+    <td align="center" valign="top" width="33%">
+      <h3>6.7M</h3>
+      parliamentary speeches analyzed with an LLM-as-a-judge pipeline
+    </td>
+    <td align="center" valign="top" width="33%">
+      <h3>κ = 0.711</h3>
+      agreement with expert consensus<br/><sub>(human–human κ = 0.644)</sub>
+    </td>
+    <td align="center" valign="top" width="33%">
+      <h3>3 hrs → 20 min</h3>
+      per-batch analysis runtime in a production ML pipeline
+    </td>
   </tr>
 </table>
 
 ---
 
-## 📄 Publications
+## Publications
 
-| | Paper | Venue | Role | Links |
-|:-:|---|---|---|---|
-| 🏛️ | **Two Centuries of Sexism in British Parliament:** A Computational Analysis of Women's Representation in the Hansard Corpus | EMNLP 2026 · Main | Co-first author | [Paper]({{EMNLP_2026_PAPER_URL}}) · [arXiv]({{ARXIV_URL}}) · [Code](https://github.com/mandira-sawkar/Two-Centuries-of-Sexism) |
-| 🧩 | **LPI-RIT at LeWiDi-2025:** Improving Distributional Predictions via Metadata and Loss Reweighting with DisCo | NLPerspectives Workshop · EMNLP 2025 | Co-first author | [Paper](https://aclanthology.org/2025.nlperspectives-1.17/) · [Code](https://github.com/mandira-sawkar/LeWiDi3_NLPeerespectives_2025) |
+| Paper | Venue | Role | Links |
+|---|---|---|---|
+| **Two Centuries of Sexism in British Parliament:** A Computational Analysis of Women's Representation in the Hansard Corpus | EMNLP 2026 · Main | Co-first author | [Paper]({{EMNLP_2026_PAPER_URL}}) · [arXiv]({{ARXIV_URL}}) · [Code](https://github.com/mandira-sawkar/Two-Centuries-of-Sexism) |
+| **LPI-RIT at LeWiDi-2025:** Improving Distributional Predictions via Metadata and Loss Reweighting with DisCo | NLPerspectives Workshop · EMNLP 2025 | Co-first author | [Paper](https://aclanthology.org/2025.nlperspectives-1.17/) · [Code](https://github.com/mandira-sawkar/LeWiDi3_NLPeerespectives_2025) |
 
-<sub>📚 Full list on <a href="https://scholar.google.com/citations?hl=en&user=lbaywYoAAAAJ">Google Scholar</a></sub>
+<sub>Full list on <a href="https://scholar.google.com/citations?hl=en&user=lbaywYoAAAAJ">Google Scholar</a></sub>
 
 ---
 
-## 🔬 Featured Work
+## Featured Work
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="./assets/hansard_thumbnail.png" width="100%" alt="Hansard project preview"/>
-      <h3>🏛️ Hansard Sexism Analysis</h3>
+      <!-- <img src="./assets/hansard_thumbnail.png" width="100%" alt="Hansard project preview"/> -->
+      <h3>Hansard Sexism Analysis</h3>
       <b>Problem:</b> Measure sexist rhetoric across 200 years of UK parliamentary debate.<br/>
       <b>Built:</b> Psychology-grounded taxonomy, 300-speech human validation set, cross-model LLM judging.<br/>
       <b>Result:</b> Sexism in 54% of anti-suffrage vs. 21% of pro-suffrage speeches.<br/><br/>
@@ -75,8 +76,8 @@ Before research, I spent 4+ years building ML and automation systems in industry
       <a href="{{https://arxiv.org/abs/2608.30485}}"><img src="https://img.shields.io/badge/Paper-{{ACCENT_HEX}}?style=flat-square&logo=arxiv&logoColor=white" alt="Paper"/></a>
     </td>
     <td width="50%" valign="top">
-      <img src="./assets/lewidi_thumbnail.png" width="100%" alt="LeWiDi project preview"/>
-      <h3>🧩 Disagreement-Aware Modeling</h3>
+      <!-- <img src="./assets/lewidi_thumbnail.png" width="100%" alt="LeWiDi project preview"/> -->
+      <h3>Disagreement-Aware Modeling</h3>
       <b>Problem:</b> Single labels erase minority perspectives in subjective tasks.<br/>
       <b>Built:</b> Extended DisCo with annotator-metadata embeddings and task-aligned losses.<br/>
       <b>Result:</b> ~40% lower soft-label distance on CSC and Paraphrase.<br/><br/>
@@ -86,12 +87,12 @@ Before research, I spent 4+ years building ML and automation systems in industry
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>⚖️ LLM-as-a-SupremeCourt-Judge</h3>
+      <h3>LLM-as-a-SupremeCourt-Judge</h3>
       Evaluated 200+ U.S. Supreme Court cases to measure how panel size, prompting strategy, and ideology personas shift LLM–judge alignment.<br/><br/>
       <a href="https://github.com/mandira-sawkar/LLM-as-a-SupremeCourt-Judge"><img src="https://img.shields.io/badge/Code-181717?style=flat-square&logo=github" alt="Code"/></a>
     </td>
     <td width="50%" valign="top">
-      <h3>🕵️ Detecting Deception</h3>
+      <h3>Detecting Deception</h3>
       Logic-gated fact-checking with DistilRoBERTa and contradiction detection. Validated on 7,200+ claims at 83% accuracy, with selective overrides for low-confidence predictions.<br/><br/>
       <a href="https://github.com/mandira-sawkar/Intelligent-Systems-for-Fighting-Misinformation"><img src="https://img.shields.io/badge/Code-181717?style=flat-square&logo=github" alt="Code"/></a>
     </td>
@@ -99,13 +100,13 @@ Before research, I spent 4+ years building ML and automation systems in industry
 </table>
 
 <details>
-<summary><b>🗂️ More projects</b></summary>
+<summary><b>More projects</b></summary>
 <br/>
 
 | Project | What it does | Highlight |
 |---|---|---|
 | [Beyond Hallucinations](https://github.com/mandira-sawkar/Beyond-Hallucinations-Multi-Agent-Fact-Checking) | Theoretical framework where multiple LLM agents reach verifiable answers through debate and consensus | Agentic AI |
-| [AI Alignment in Criminal Justice](https://github.com/mandira-sawkar/AI-Alignment-in-Criminal-Justice) | Optimization and game-theory model for fair jury selection and deliberation | 🏆 1st of ~60, RIT Graduate Showcase |
+| [AI Alignment in Criminal Justice](https://github.com/mandira-sawkar/AI-Alignment-in-Criminal-Justice) | Optimization and game-theory model for fair jury selection and deliberation | 1st of ~60, RIT Graduate Showcase |
 | [Parking Ticket Classifier](https://github.com/mandira-sawkar/Interpretable-Parking-Ticket-Location-Classifier) | Spark ML Random Forest predicting NYC police precinct | 98% accuracy |
 | [Shipping Status Classifier](https://github.com/mandira-sawkar/Product-Shipping-Status-Classifier) | Predicts supply-chain delays with PCA / LDA | 97% accuracy |
 | [Cancer Detection Microservice](https://github.com/mandira-sawkar/Cancer-Detection-as-a-Microservice) | Voting classifier served via Flask in Docker | End-to-end deployment |
@@ -115,22 +116,11 @@ Before research, I spent 4+ years building ML and automation systems in industry
 
 ---
 
-## 💼 Experience
+## Experience
 
-```mermaid
-%%{init: {'theme':'base', 'themeVariables': {
-  'primaryColor':'#12304a', 'primaryTextColor':'#f1f5f9', 'primaryBorderColor':'#2dd4bf',
-  'lineColor':'#60a5fa', 'textColor':'#94a3b8',
-  'cScale0':'#12304a', 'cScale1':'#0f3d4a', 'cScale2':'#134e4a', 'cScale3':'#0b1324',
-  'cScaleLabel0':'#f1f5f9', 'cScaleLabel1':'#f1f5f9', 'cScaleLabel2':'#f1f5f9', 'cScaleLabel3':'#f1f5f9'
-}}}%%
-timeline
-    title Career Path
-    2020 - 2023 : Software Engineer · WSP Global
-    2023 - 2024 : ML Engineer · Kloud9
-    2024 - 2026 : M.S. Artificial Intelligence · RIT
-    2025 - 2026 : 2x EMNLP co-first-author papers
-```
+<p align="center">
+  <img src="./assets/timeline.svg" width="100%" alt="Career timeline: WSP Global (2020) → Kloud9 (2023) → RIT M.S. AI (2024) → EMNLP 2025 → EMNLP 2026"/>
+</p>
 
 - Built a ghost-inventory prediction pipeline across 50+ features and multimillion-row datasets: **92% accuracy**, **10% fewer stock discrepancies**.
 - Cut per-batch analysis runtime from **3 hours to 20 minutes**.
@@ -140,7 +130,7 @@ timeline
 </details>
 
 <details>
-<summary><b>⚙️ Software Engineer — WSP Global</b> &nbsp;·&nbsp; Oct 2020 – Apr 2023</summary>
+<summary><b>Software Engineer — WSP Global</b> &nbsp;·&nbsp; Oct 2020 – Apr 2023</summary>
 <br/>
 
 - Built a CLI tool automating onboarding for **60,000+ employees annually**, saving **2.5 human-months per year**.
@@ -150,7 +140,7 @@ timeline
 </details>
 
 <details>
-<summary><b>🎓 Education</b></summary>
+<summary><b>Education</b></summary>
 <br/>
 
 - **M.S. Artificial Intelligence** — Rochester Institute of Technology, May 2026 · GPA 3.7
@@ -162,7 +152,7 @@ timeline
 
 ---
 
-## 🛠️ Toolkit
+## Toolkit
 
 **Languages**
 <p>
@@ -215,14 +205,14 @@ timeline
 
 ---
 
-## 🏆 Recognition
+## Recognition
 
-- 🥇 **1st place of ~60 presentations** — RIT Graduate Showcase 2025, *AI Alignment in Criminal Justice*
-- 🖼️ **Poster** — RIT Graduate Showcase 2025, *LLM-as-a-SupremeCourt-Judge*
+- **1st place of ~60 presentations** — RIT Graduate Showcase 2025, *AI Alignment in Criminal Justice*
+- **Poster** — RIT Graduate Showcase 2025, *LLM-as-a-SupremeCourt-Judge*
 
 ---
 
-## 🤝 Let's Connect
+## Let's Connect
 
 I'm happy to talk about LLM evaluation, AI safety, responsible NLP, or research engineering roles.
 
